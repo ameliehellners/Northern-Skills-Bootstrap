@@ -163,7 +163,7 @@ header nav ul {
   margin: 10px 0;
 }
 
-header nav ul a {
+header nav ul li {
   width: 100%;
   color: #fefefe;
   font-size: 1.125rem;
@@ -171,19 +171,24 @@ header nav ul a {
   line-height: 44px;
 }
 
+header nav ul li a {
+  color: #fefefe;
+  line-height: 44px;
+  height: 44px;
+}
+
 header nav ul li {
   display: block;
-  height: 44px;
   transition: 200ms linear;
 }
 
 header nav ul a:hover {
   text-decoration: none;
+  background-color: #444;
 }
 
-header nav ul a:hover li {
+header nav ul li a:hover {
   color: #52c7f9;
-  background-color: #444;
 }
 
 header.scrolled nav {
