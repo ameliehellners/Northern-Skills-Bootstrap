@@ -367,7 +367,7 @@ p{
 
 /**** II : Layout ****/
 section{
-	background: peachpuff;
+	background: white;
 	padding: 50px 0;
 }
 @media (min-width: 740px){
@@ -463,7 +463,8 @@ section{
 	background-color: white;
 }
 .about-header {
-	margin-top: -80px;
+  position: relative;
+	top: -20px;
 }
 .about-text {
 	background-color: #eaf8f9;
