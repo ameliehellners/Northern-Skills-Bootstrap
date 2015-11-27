@@ -456,3 +456,16 @@ section{
 .item:hover p{
 	opacity: 1;
 }
+
+/**** About ****/
+.about {
+  margin: 0 auto;
+  max-width: 900px;
+	background-color: white;
+}
+.about-header {
+	margin-top: -50px;
+}
+.about-text {
+	background-color: #eaf8f9;
+}
