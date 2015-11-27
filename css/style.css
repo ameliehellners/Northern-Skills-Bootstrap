@@ -388,22 +388,23 @@ section, footer{
 	cursor: pointer;
 }
 .item:nth-child(1) {
-	background-image: url("https://unsplash.it/1000/500?image=14");
+  background-image: url("../img/burger.jpg");
 }
 .item:nth-child(2) {
-	background-image: url("https://unsplash.it/1000/500?image=10");
+  background-image: url("../img/bulldog.jpg");
 }
 .item:nth-child(3) {
-	background-image: url("https://unsplash.it/1000/500?image=11");
+  background-image: url("../img/pix_logo.png");
 }
 .item:nth-child(4) {
-	background-image: url("https://unsplash.it/1000/500?image=12");
+  background-image: url("../img/zengarden.png");
+  background-position: left;
 }
 .item:nth-child(5) {
-	background-image: url("https://unsplash.it/1000/500?image=15");
+  background-image: url("../img/football.jpg");
 }
 .item:nth-child(6) {
-	background-image: url("https://unsplash.it/1000/500?image=17");
+  background-image: url("../img/sparks.jpg");
 }
 .item-inner{
 	position: relative; /* Needed for top value in positioning */
@@ -507,7 +508,7 @@ padding: 8px;
 
 #contact_label, .button_form {
   margin-left: 20px;
-  padding: 5px;  
+  padding: 5px;
 }
 
 #button-contact {
@@ -538,7 +539,7 @@ div#contact_square{
   #contact_label{
     float: left;
   }
-  
+
 
   #message{
     float:left;
