@@ -1,3 +1,12 @@
+/* Ionicons (icons) */
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/* Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic,300italic,300|Source+Sans+Pro:400,300italic,300,400italic,700,700italic);
+/*
+  font-family: 'Open Sans', sans-serif;
+*/
+
 /***************************
         FIXED HEADER
 ***************************/
@@ -298,17 +307,6 @@ section.landing div {
 }
 
 
-
-/* Ionicons (icons) */
-@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-
-/* Font */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic,300italic,300|Source+Sans+Pro:400,300italic,300,400italic,700,700italic);
-/*
-  font-family: 'Open Sans', sans-serif;
-*/
-
-
 /**** I : Base ****/
 *{
 	box-sizing: border-box;
@@ -455,4 +453,80 @@ section{
 }
 .item:hover p{
 	opacity: 1;
+}
+
+/**** CONTACT AREA MAP****/
+#contact_square, #message, #email, #name{
+font-family: 'Open Sans', sans-serif;
+}
+
+#contact_square{
+background: rgba(0, 0, 0, 0.5);
+color: #fff;
+width: 50%;
+margin-left: 20px;
+z-index: 20;
+}
+
+/**** CONTACT FORM ****/
+#message, #email, #name{
+  background-color: #c4c4c4;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  width: 80%;
+  margin-left: 20px;
+  outline: none;
+
+}
+
+#contact_label, .button_form{
+  font-size: 1em;
+  margin-left: 20px;
+  padding: 5px;  
+}
+#button_contact{
+  margin-left: 20px;
+
+}
+
+#message{
+  resize: none;
+  margin-bottom: 40px;
+}
+
+#email, #name{
+margin-bottom: 20px;
+}
+
+@media screen and (min-width: 721px) {
+
+  #contact_square{
+    height: 200px;
+    width: 30%;
+  }
+
+  #contact_label{
+    float: left;
+  }
+
+  #message{
+    float:left;
+    width: 40%;
+  }
+
+#email, #name, .button_form{
+  float: right;
+  margin-right: 50px;
+}
+#email, #name{
+  width: 30%
+  }
+
+}
+
+@media screen and(min-width: 1020px){
+  #contact_square{
+    width: 20%;
+  }
 }
