@@ -340,7 +340,7 @@ a{
 }
 
 /* Headings */
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,label{
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 15px auto; /* Margin-v */
 }
@@ -361,6 +361,10 @@ h4{
 p{
 	line-height: 1.5em;
 	margin: 15px 0; /* Margin-v */
+}
+/* Label */
+label{
+  font-size: 1.5rem;
 }
 
 /**** II : Layout ****/
@@ -456,19 +460,30 @@ section{
 }
 
 /**** CONTACT AREA MAP****/
-#contact_square, #message, #email, #name{
-font-family: 'Open Sans', sans-serif;
-}
 
+.contact_map{
+  position: relative;
+  padding: 0;
+}
 #contact_square{
 background: rgba(0, 0, 0, 0.5);
 color: #fff;
-width: 50%;
+width: 70%;
+height: 250px;
 margin-left: 20px;
 z-index: 20;
+margin-top: 50px;
+position: absolute;
+padding: 8px;
 }
 
 /**** CONTACT FORM ****/
+
+#map{
+  height: 400px;
+  width: 100%;
+  z-index: 1;
+}
 #message, #email, #name{
   background-color: #c4c4c4;
   outline: none;
@@ -481,11 +496,10 @@ z-index: 20;
 }
 
 #contact_label, .button_form{
-  font-size: 1em;
   margin-left: 20px;
   padding: 5px;  
 }
-#button_contact{
+#button-contact{
   margin-left: 20px;
 
 }
@@ -503,7 +517,7 @@ margin-bottom: 20px;
 
   #contact_square{
     height: 200px;
-    width: 30%;
+    width: 50%;
   }
 
   #contact_label{
