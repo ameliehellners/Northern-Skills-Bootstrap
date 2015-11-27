@@ -1,3 +1,12 @@
+/* Ionicons (icons) */
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/* Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic,300italic,300|Source+Sans+Pro:400,300italic,300,400italic,700,700italic);
+/*
+  font-family: 'Open Sans', sans-serif;
+*/
+
 /***************************
         FIXED HEADER
 ***************************/
@@ -298,17 +307,6 @@ section.landing div {
 }
 
 
-
-/* Ionicons (icons) */
-@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-
-/* Font */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic,300italic,300|Source+Sans+Pro:400,300italic,300,400italic,700,700italic);
-/*
-  font-family: 'Open Sans', sans-serif;
-*/
-
-
 /**** I : Base ****/
 *{
 	box-sizing: border-box;
@@ -342,7 +340,7 @@ a{
 }
 
 /* Headings */
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,label{
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 15px auto; /* Margin-v */
 }
@@ -364,12 +362,17 @@ p{
 	line-height: 1.5em;
 	margin: 15px 0; /* Margin-v */
 }
+/* Label */
+label{
+  font-size: 1.5em;
+  margin: 15px auto;
+}
 
 /**** II : Layout ****/
-section{
+/*section{
 	background: peachpuff;
 	padding: 50px 0;
-}
+}*/
 @media (min-width: 740px){
 	section{
 		padding: 100px 0;
@@ -455,4 +458,99 @@ section{
 }
 .item:hover p{
 	opacity: 1;
+}
+
+/**** CONTACT AREA MAP****/
+
+.contact_map{
+  position: relative;
+  padding: 0;
+}
+#contact_square{
+background: rgba(0, 0, 0, 0.5);
+color: #fff;
+width: 70%;
+height: 250px;
+margin-left: 20px;
+z-index: 20;
+margin-top: 50px;
+position: absolute;
+padding: 8px;
+}
+
+#map{
+  height: 400px;
+  width: 100%;
+  z-index: 1;
+}
+
+/**** CONTACT FORM ****/
+
+#message, #email, #name{
+  background-color: #c4c4c4;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  width: 80%;
+  margin-left: 20px;
+  outline: none;
+
+}
+
+#contact_label, .button_form {
+  margin-left: 20px;
+  padding: 5px;  
+}
+
+#button-contact {
+  margin-left: 20px;
+
+}
+
+#message{
+  resize: none;
+  margin-bottom: 40px;
+}
+
+#email, #name{
+margin-bottom: 20px;
+}
+
+@media screen and (min-width: 721px) {
+
+  #contact_square{
+    padding: 8px;
+    height: 250px;
+    width: 42%;
+  }
+div#contact_square{
+  padding: 8px;
+}
+
+  #contact_label{
+    float: left;
+  }
+  
+
+  #message{
+    float:left;
+    width: 90%;
+  }
+
+#email, #name, .button_form{
+  float: right;
+  margin-right: 50px;
+}
+#email, #name{
+  width: 90%
+  }
+
+
+}
+
+@media screen and (min-width: 1020px){
+  #contact_square{
+    width: 35%;
+    height: 220px;
+  }
 }
