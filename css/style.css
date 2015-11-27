@@ -369,16 +369,10 @@ label{
 }
 
 /**** II : Layout ****/
-/*section{
-	background: peachpuff;
+section{
+	background: white;
 	padding: 50px 0;
-}*/
-@media (min-width: 740px){
-	section{
-		padding: 100px 0;
-	}
 }
-
 
 /**** Portfolio ****/
 .portfolio{
@@ -458,6 +452,19 @@ label{
 }
 .item:hover p{
 	opacity: 1;
+}
+
+/**** About ****/
+.about {
+  max-width: 900px;
+	background-color: white;
+}
+.about-header {
+  position: relative;
+	top: -20px;
+}
+.about-text {
+	background-color: #eaf8f9;
 }
 
 /**** CONTACT AREA MAP****/
