@@ -364,14 +364,15 @@ p{
 }
 /* Label */
 label{
-  font-size: 1.5rem;
+  font-size: 1.5em;
+  margin: 15px auto;
 }
 
 /**** II : Layout ****/
-section{
+/*section{
 	background: peachpuff;
 	padding: 50px 0;
-}
+}*/
 @media (min-width: 740px){
 	section{
 		padding: 100px 0;
@@ -477,13 +478,14 @@ position: absolute;
 padding: 8px;
 }
 
-/**** CONTACT FORM ****/
-
 #map{
   height: 400px;
   width: 100%;
   z-index: 1;
 }
+
+/**** CONTACT FORM ****/
+
 #message, #email, #name{
   background-color: #c4c4c4;
   outline: none;
@@ -495,11 +497,12 @@ padding: 8px;
 
 }
 
-#contact_label, .button_form{
+#contact_label, .button_form {
   margin-left: 20px;
   padding: 5px;  
 }
-#button-contact{
+
+#button-contact {
   margin-left: 20px;
 
 }
@@ -512,7 +515,7 @@ padding: 8px;
 #email, #name{
 margin-bottom: 20px;
 }
-
+*/
 @media screen and (min-width: 721px) {
 
   #contact_square{
@@ -523,6 +526,7 @@ margin-bottom: 20px;
   #contact_label{
     float: left;
   }
+  
 
   #message{
     float:left;
@@ -536,6 +540,7 @@ margin-bottom: 20px;
 #email, #name{
   width: 30%
   }
+
 
 }
 
