@@ -342,6 +342,7 @@ a{
 /* Headings */
 h1,h2,h3,h4,h5,h6,label{
 	font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 	margin: 15px auto; /* Margin-v */
 }
 h1{
@@ -369,7 +370,7 @@ label{
 }
 
 /**** II : Layout ****/
-section{
+section, footer{
 	background: white;
 	padding: 50px 0;
 }
@@ -560,4 +561,10 @@ div#contact_square{
     width: 35%;
     height: 220px;
   }
+}
+
+/**** Footer ****/
+footer{
+  color: #fff;
+  background: #565656;
 }
